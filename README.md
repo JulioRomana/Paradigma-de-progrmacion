@@ -1,4 +1,4 @@
-# Paradigma-de-programacion
+# Paradigmas-de-programación
 #### Subgrupo 1_11
 
 ## Integrantes
@@ -8,4 +8,5 @@
 #### Cristian Camilo Orjuela Vargas (Subgrupo 1_11)
 
 // Interfaces creadas con JavaFX con SceneBuilder
+
 
