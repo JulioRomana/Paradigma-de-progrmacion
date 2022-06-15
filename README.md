@@ -1,4 +1,4 @@
-# Paradigma-de-progrmacion
+# Paradigma-de-programacion
 #### Subgrupo 1_11
 
 ## Integrantes
