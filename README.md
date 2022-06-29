@@ -1,5 +1,5 @@
 # Paradigmas-de-programación
-### El proyecto esta en la rama master (no en esta rama llamada pwt)
+### El proyecto esta en la rama pwt (no en esta rama llamada master)
 ## esto es un proyecto prueba
 #### Subgrupo 1_11
 
