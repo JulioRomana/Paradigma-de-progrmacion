@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="phowordto.controller.Level5Controller">
+   <children>
+      <AnchorPane fx:id="background" prefHeight="397.0" prefWidth="431.0" style="-fx-background-color: #38b8eb;">
+         <effect>
+            <Glow />
+         </effect>
+         <children>
+            <ImageView fx:id="burbuja" fitHeight="509.0" fitWidth="523.0" layoutY="-240.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagenes/Burbuja.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="cat" fitHeight="166.0" fitWidth="167.0" layoutX="-9.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true" rotate="28.1">
+               <image>
+                  <Image url="@../imagenes/Welcome.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="ask" layoutX="133.0" layoutY="27.0" text="What is the correct word for this image?">
+               <font>
+                  <Font name="Rockwell Extra Bold" size="14.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="book" fitHeight="183.0" fitWidth="196.0" layoutX="186.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagenes/Book.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="button1" layoutX="126.0" layoutY="269.0" mnemonicParsing="false" onAction="#btnfalse1" prefHeight="48.0" prefWidth="91.0" style="-fx-background-color: #ed51ac;" text="Buk">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="Rockwell Extra Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="button2" layoutX="278.0" layoutY="269.0" mnemonicParsing="false" onAction="#btnTrue" prefHeight="48.0" prefWidth="91.0" style="-fx-background-color: #e6e349;" text="Book">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="Rockwell Extra Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="button3" layoutX="160.0" layoutY="330.0" mnemonicParsing="false" onAction="#btnfalse2" prefHeight="48.0" prefWidth="91.0" style="-fx-background-color: #49e666;" text="Bok">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="Rockwell Extra Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="button4" layoutX="316.0" layoutY="330.0" mnemonicParsing="false" onAction="#btnfalse3" prefHeight="48.0" prefWidth="91.0" style="-fx-background-color: #9359f7;" text="Vook">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <font>
+                  <Font name="Rockwell Extra Bold" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

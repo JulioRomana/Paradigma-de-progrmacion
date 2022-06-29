@@ -18,7 +18,7 @@ public class Phowordto extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("view/inicio.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("view/Welcome.fxml"));
         
         Scene scene = new Scene(root);
         

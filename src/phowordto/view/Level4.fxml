@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="phowordto.controller.Level4Controller">
+   <children>
+      <AnchorPane fx:id="background" prefHeight="397.0" prefWidth="431.0" style="-fx-background-color: #38b8eb;">
+         <children>
+            <ImageView fx:id="burbuja" fitHeight="487.0" fitWidth="559.0" layoutX="-7.0" layoutY="-229.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagenes/Burbuja.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="cat" fitHeight="169.0" fitWidth="184.0" layoutX="-37.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" rotate="36.0">
+               <image>
+                  <Image url="@../imagenes/Welcome.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="ask" layoutX="94.0" layoutY="23.0" text="What is the correct word for this image?">
+               <font>
+                  <Font name="Rockwell Extra Bold" size="14.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="strawberry" fitHeight="186.0" fitWidth="248.0" layoutX="156.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagenes/Stramberry.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="button1" layoutX="58.0" layoutY="276.0" mnemonicParsing="false" onAction="#btnTrue" prefHeight="48.0" prefWidth="125.0" style="-fx-background-color: #ed51ac;" text="Strawberry">
+               <font>
+                  <Font name="Rockwell Extra Bold" size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="button2" layoutX="217.0" layoutY="276.0" mnemonicParsing="false" onAction="#btnfalse1" prefHeight="48.0" prefWidth="125.0" style="-fx-background-color: #e6e349;" text="Strawbeery">
+               <font>
+                  <Font name="Rockwell Extra Bold" size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="button3" layoutX="112.0" layoutY="335.0" mnemonicParsing="false" onAction="#btnfalse2" prefHeight="48.0" prefWidth="125.0" style="-fx-background-color: #49e666;" text="Strawbery">
+               <font>
+                  <Font name="Rockwell Extra Bold" size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="button4" layoutX="280.0" layoutY="335.0" mnemonicParsing="false" onAction="#btnfalse3" prefHeight="48.0" prefWidth="125.0" style="-fx-background-color: #9359f7;" text="Straberry">
+               <font>
+                  <Font name="Rockwell Extra Bold" size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

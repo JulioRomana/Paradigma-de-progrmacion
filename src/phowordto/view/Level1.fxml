@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="phowordto.controller.Level1Controller">
+   <children>
+      <AnchorPane fx:id="background" prefHeight="397.0" prefWidth="431.0" style="-fx-background-color: #38b8eb;" AnchorPane.topAnchor="-5.0">
+         <children>
+            <ImageView fitHeight="550.0" fitWidth="500.0" layoutX="-5.0" layoutY="-236.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagenes/Burbuja.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D />
+               </viewport>
+            </ImageView>
+            <Label fx:id="ask" layoutX="90.0" layoutY="24.0" prefHeight="35.0" prefWidth="355.0" text="What is the correct word for this image?" textAlignment="CENTER">
+               <font>
+                  <Font name="Rockwell Extra Bold" size="14.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="tree" fitHeight="174.0" fitWidth="215.0" layoutX="163.0" layoutY="91.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagenes/Tree.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="cat" fitHeight="135.0" fitWidth="144.0" layoutX="-31.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true" rotate="37.9">
+               <image>
+                  <Image url="@../imagenes/Welcome.png" />
+               </image>
+               <effect>
+                  <Glow />
+               </effect>
+            </ImageView>
+            <Button fx:id="button1" layoutX="131.0" layoutY="252.0" mnemonicParsing="false" onAction="#btnTrue" prefHeight="48.0" prefWidth="91.0" style="-fx-background-color: #ed51ac;" text="Tree">
+               <font>
+                  <Font name="Rockwell Extra Bold" size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="button2" layoutX="307.0" layoutY="254.0" mnemonicParsing="false" onAction="#btnfalse1" prefHeight="48.0" prefWidth="91.0" style="-fx-background-color: #e6e349;" text="Three">
+               <font>
+                  <Font name="Rockwell Extra Bold" size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="button3" layoutX="81.0" layoutY="313.0" mnemonicParsing="false" onAction="#btnfalse2" prefHeight="48.0" prefWidth="91.0" style="-fx-background-color: #49e666;" text="Trhee">
+               <font>
+                  <Font name="Rockwell Extra Bold" size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="button4" layoutX="248.0" layoutY="312.0" mnemonicParsing="false" onAction="#btnfalse3" prefHeight="48.0" prefWidth="91.0" style="-fx-background-color: #9359f7;" text="Thee">
+               <font>
+                  <Font name="Rockwell Extra Bold" size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+         <effect>
+            <Glow />
+         </effect>
+      </AnchorPane>
+   </children>
+</AnchorPane>
