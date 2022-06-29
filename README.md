@@ -1,5 +1,5 @@
 # Paradigmas-de-programación
-### El proyecto esta en la rama master (no en esta rama llamada main)
+### El proyecto esta en la rama master (no en esta rama llamada pwt)
 #### Subgrupo 1_11
 
 ## Integrantes
